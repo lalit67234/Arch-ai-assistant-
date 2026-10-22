@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ARCH</string>
+    <string name="accessibility_service_label">ARCH Device Control</string>
+    <string name="accessibility_service_description">ARCH Tactical Accessibility Service enables automated device gestures, app navigation, UI element interaction, and hands-free control on Android 9+.</string>
+    
+    <!-- Notification Channels & Strings -->
+    <string name="bg_service_channel_name">ARCH Background Assistant</string>
+    <string name="bg_service_channel_desc">Shows active background voice listening status and controls</string>
+    <string name="bg_service_title">ARCH Tactical Assistant</string>
+    <string name="bg_service_listening">Online &amp; Listening for Voice Commands</string>
+    <string name="bg_service_paused">Voice Listening Paused</string>
+    
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_open">Open ARCH</string>
+    
+    <!-- Reminders -->
+    <string name="reminders_channel_name">ARCH Scheduled Reminders</string>
+    <string name="reminders_channel_desc">Notifications for scheduled alerts and memory reminders</string>
+    <string name="reminder_default_title">ARCH Reminder Alert</string>
+    <string name="action_complete">Done</string>
+    <string name="action_snooze">Snooze 10m</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Dark JARVIS/ARCH aesthetic) -->
+    <style name="Theme.ARCH" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#030712</item>
+        <item name="android:statusBarColor">#030712</item>
+        <item name="android:navigationBarColor">#030712</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">#030712</item>
+        <item name="android:textColorPrimary">#06b6d4</item>
+    </style>
+</resources>

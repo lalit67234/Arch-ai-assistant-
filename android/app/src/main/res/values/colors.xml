@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="arch_dark_bg">#030712</color>
+    <color name="arch_cyan">#06b6d4</color>
+    <color name="arch_cyan_bright">#22d3ee</color>
+    <color name="arch_slate">#64748b</color>
+    <color name="arch_accent">#3b82f6</color>
+</resources>

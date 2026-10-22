@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" class="bg-[#020205]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>ARCH V2: Native Android Assistant & Autonomous Coding Agent</title>
+    <meta name="description" content="A futuristic voice-enabled personal AI operating system with real Android package-aware app control, Kotlin native AppLauncher, and true full-screen terminal workspace." />
+    <meta property="og:title" content="ARCH V2: Native Android Assistant & Autonomous Coding Agent" />
+    <meta property="og:description" content="A futuristic voice-enabled personal AI operating system with real Android package-aware app control, Kotlin native AppLauncher, and true full-screen terminal workspace." />
+    <meta name="theme-color" content="#020205" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #020205;
+        overflow: hidden;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body class="bg-[#020205] text-white">
+    <div id="root"></div>
+    <script>
+      // When opened directly via file:// at project root without a bundler, navigate to compiled dist/index.html
+      if (typeof window !== 'undefined' && window.location.protocol === 'file:' && document.querySelector('script[src*="main.tsx"]')) {
+        window.location.replace('dist/index.html');
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

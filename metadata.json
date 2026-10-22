@@ -1,0 +1,11 @@
+{
+  "name": "ARCH V2: Native Android Assistant & Autonomous Coding Agent",
+  "description": "A futuristic voice-enabled personal AI operating system with real Android package-aware app control, Kotlin native AppLauncher, and true full-screen terminal workspace.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
